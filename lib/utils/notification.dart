@@ -1,11 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:alarm_app/viewModel/AlarmProvider.dart';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
-import 'package:provider/provider.dart';
-import 'package:timezone/timezone.dart' as tz;
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
